@@ -1,6 +1,7 @@
-from Tranasportation import Tranasportation
+from Transportation import Transportation
 from Walk import Walk
-
+from Taxi import Taxi
+from Train import Train
 
 
 if __name__ == '__main__':
@@ -12,5 +13,5 @@ if __name__ == '__main__':
             Taxi("Payathai Station","The British Council",3) ]
 
     for travel in trip:
-    travel_cost += travel.find_cost()
-    print(travel_cost)
+        travel_cost += travel.find_cost()
+        print(travel_cost)
