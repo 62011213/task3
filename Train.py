@@ -1,5 +1,5 @@
 from Transportation import Transportation
-class train(Transportation):
+class Train(Transportation):
     def __init__(self, s, e, d, stop):
         super().__init__(s, e, d)
         self.stop = stop
